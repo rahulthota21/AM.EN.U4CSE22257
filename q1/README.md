@@ -37,10 +37,10 @@ GET /stockcorrelation?minutes=50&ticker=STOCK1&ticker=STOCK2
 
 Place your `screenshots` folder inside this directory and include:
 
-```md
+
 ### 📸 API 1 Output
 ![Average Price API](./screenshots/1.1.png)
 
 ### 📸 API 2 Output
 ![Correlation API](./screenshots/1.2.png)
-```
+
