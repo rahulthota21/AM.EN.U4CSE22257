@@ -1,4 +1,3 @@
-// File: src/pages/CorrelationHeatmap.tsx
 import React, { useEffect, useState } from 'react';
 import {
   Box,

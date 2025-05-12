@@ -1,4 +1,3 @@
-// File: src/pages/StockPage.tsx
 import React, { useState } from 'react';
 import {
   Box,

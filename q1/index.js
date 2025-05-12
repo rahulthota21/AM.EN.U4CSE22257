@@ -11,7 +11,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.send('Server is up and running');
 });
-
+// this token is changing frequently
 const AUTH_TOKEN = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ3MDY1MjYwLCJpYXQiOjE3NDcwNjQ5NjAsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjhmNjE0N2RhLTNiODItNDc2Yi05OTYwLWFkNmM5YWIyYTU3NCIsInN1YiI6ImFtLmVuLnU0Y3NlMjIyNTdAYW0uc3R1ZGVudHMuYW1yaXRhLmVkdSJ9LCJlbWFpbCI6ImFtLmVuLnU0Y3NlMjIyNTdAYW0uc3R1ZGVudHMuYW1yaXRhLmVkdSIsIm5hbWUiOiJ0aG90YSByYWh1bCIsInJvbGxObyI6ImFtLmVuLnU0Y3NlMjIyNTciLCJhY2Nlc3NDb2RlIjoiU3d1dUtFIiwiY2xpZW50SUQiOiI4ZjYxNDdkYS0zYjgyLTQ3NmItOTk2MC1hZDZjOWFiMmE1NzQiLCJjbGllbnRTZWNyZXQiOiJaRHpaZm1OdVpURHN2V05mIn0.tPHO4jV-8pfr05p8stdN4nEZyXrkqCDjv213BNII2Mo';
 app.get('/stocks/:ticker', async (req, res) => {
   const { ticker } = req.params;
