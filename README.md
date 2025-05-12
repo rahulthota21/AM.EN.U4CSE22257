@@ -63,5 +63,5 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 - Only public libraries and local backend are used.
 - Code is clean, functional, and follows a responsive layout.
 
-## *Note:*
+## **Note:**
 - the token is changing frequently [ notice this point]
